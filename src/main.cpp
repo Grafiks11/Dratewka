@@ -136,10 +136,6 @@ struct pms5003data {
 };
  
 struct pms5003data data;
-int synchronizacja=0;    
-
-//---------------------------------------------------------------------------------------------------
-
 
 boolean readPMSdata(Stream *s) {
   if (! s->available()) {
